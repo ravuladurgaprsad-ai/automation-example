@@ -13,7 +13,7 @@ const reshedd= response.headersArray();
 console.log(reshedd)
 })
 
-test.only('api post request',async({request})=>{
+test('api post request',async({request})=>{
 const response=await request.post("https://jsonplaceholder.typicode.com/posts",{
     data:{
         name:"durga",
