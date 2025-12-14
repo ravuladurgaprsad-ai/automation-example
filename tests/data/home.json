@@ -1,0 +1,22 @@
+{
+    
+"title":"Automation Testing Practice",
+
+"logincredentials":[{
+    "username":"testuser",
+    "password":"Test@123"},
+    {"username":"admin"}
+],
+
+"userdata":{
+"email":"durga@gmail.com",
+"password":"Test@126",
+"name":"Durga Prasad",
+"cell":"9999999999",
+"searchproduct":"Headphone",
+"emailidcheck":"john.doe@example.com",
+"formsdata":["durga","prasad","ravula"]
+}
+}
+
+
