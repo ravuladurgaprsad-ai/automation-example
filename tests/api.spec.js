@@ -49,5 +49,5 @@ const response=await request.patch("https://jsonplaceholder.typicode.com/posts/1
         }
     })
 expect(response.status()).toBe(200);
-console(await response.json(r));
+console.log(await response.json());
 })
