@@ -47,5 +47,10 @@ this.row=page.locator("//table[@id='productTable']/tbody/tr")
 this.tbprices=page.locator("//table[@id='productTable']//td[3]")
 //input 3forms at one time
 this.inputs=page.locator('//div//input[@class="input-field"]')
-this.submitbtn=page.locator('//button[@class="rectangular-button"]')
+this.submitbtn=page.locator('//button[@class="rectangular-button"]');
+//shadow dom 
+this.dominput=page.locator("input[type=text]:nth-child(5)")
+
+
+
 }}
