@@ -190,7 +190,7 @@ await hp.submitbtn.nth(i).click();
 expect(inputfield).toContain(values[i]);
 }
 });
-test.only("shadow dom ",async ({page})=>{
+test("shadow dom ",async ({page})=>{
 const hp=new homepage(page);
 await hp.dominput.fill('durga');
 });
