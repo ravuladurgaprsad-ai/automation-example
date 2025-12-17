@@ -187,7 +187,13 @@ const inputfield=await hp.inputs.nth(i);
 inputfield.scrollIntoViewIfNeeded();
 await inputfield.fill(values[i]);
 await hp.submitbtn.nth(i).click();
-await expect(inputfield).toContain(values[i]);
+expect(inputfield).toContain(values[i]);
 }
-})
-})
+});
+test("shadow dom ",async ({page})=>{
+const hp=new homepage(page);
+await hp.dominput.fill('durga');
+});
+});
+
+
